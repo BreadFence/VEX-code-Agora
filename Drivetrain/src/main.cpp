@@ -25,4 +25,14 @@ using namespace vex;
 int main() {
   // Initializing Robot Configuration. DO NOT REMOVE!
   vexcodeInit();
+  // read percent from controller axis
+int leftSpeed  = Controller1.Axis3.position();
+int rightSpeed = Controller1.Axis2.position();
+// deadband
+if( abs(leftSpeed)  < 10 ) leftSpeed  = 0;
+if( abs(rightSpeed) < 10 ) rightSpeed = 0;
+// send to motors
+LeftMo.spin( forward, leftSpeed, percent );
+rightDrive.spin( forward, rightSpeed, percent );
+ }
 }
