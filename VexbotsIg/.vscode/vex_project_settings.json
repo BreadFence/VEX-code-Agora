@@ -1,0 +1,18 @@
+{
+	"extension": {
+		"version": "0.2.0",
+		"json": 1
+	},
+	"project": {
+		"name": "VexbotsIg",
+		"description": "",
+		"creationDate": "10/8/2022, 9:32:56 PM",
+		"platform": "IQ2",
+		"language": "cpp",
+		"slot": 1,
+		"sdkVersion": "IQ2_20220726_10_00_00",
+		"cpp": {
+			"includePath": []
+		}
+	}
+}
