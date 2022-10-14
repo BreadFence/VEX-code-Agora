@@ -1,0 +1,18 @@
+{
+	"extension": {
+		"version": "0.2.0",
+		"json": 1
+	},
+	"project": {
+		"name": "ThisOne",
+		"description": "",
+		"creationDate": "10/13/2022, 6:55:11 PM",
+		"platform": "EXP",
+		"language": "python",
+		"slot": 1,
+		"sdkVersion": "EXP_1_0_0_8",
+		"python": {
+			"main": "src/main.py"
+		}
+	}
+}
